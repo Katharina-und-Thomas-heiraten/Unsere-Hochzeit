@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	/* text-transform: capitalized */ 
+
 }
 
 ol, ul {
@@ -141,7 +143,8 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		/* font-family: "Source Sans Pro", sans-serif; */
+		font-family: "Alice";
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
