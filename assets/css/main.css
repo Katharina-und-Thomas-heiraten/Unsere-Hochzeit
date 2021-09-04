@@ -180,8 +180,18 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
 		font-family: 'Sacramento', cursive;
+		color: #ffffff;
+		font-weight: 600;
+		line-height: 1.5;
+		margin: 0 0 1rem 0;
+		text-transform: none;
+		letter-spacing: 0.2rem;
+	}
+	
+	h2, h3, h4, h5, h6 {
+		font-family: "Source Sans Pro", sans-serif;
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
@@ -208,6 +218,7 @@ input, select, textarea {
 		
 		
 		h3.major, h4.major, h5.major, h6.major {
+			font-family: "Source Sans Pro", sans-serif;
 			border-bottom: solid 1px #ffffff;
 			width: -moz-max-content;
 			width: -webkit-max-content;
@@ -225,6 +236,7 @@ input, select, textarea {
 	}
 
 	h2 {
+		
 		font-size: 1.5rem;
 		line-height: 1.4;
 		letter-spacing: 0.5rem;
