@@ -230,7 +230,8 @@ input, select, textarea {
 
 	h1 {
 		font-family: 'Sacramento', cursive;
-		font-size: 2.25rem;
+		font-size: 3rem;
+		/* font-size: 2.25rem; */
 		line-height: 1.3;
 		letter-spacing: 0.5rem;
 	}
