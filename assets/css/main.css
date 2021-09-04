@@ -34,10 +34,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	/*
-	text-transform: capitalized
-	*/
-	
+	/* text-transform: capitalized */ 
+
 }
 
 ol, ul {
@@ -187,7 +185,7 @@ input, select, textarea {
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: capitalized;
+		text-transform: uppercase;
 		letter-spacing: 0.2rem;
 	}
 
