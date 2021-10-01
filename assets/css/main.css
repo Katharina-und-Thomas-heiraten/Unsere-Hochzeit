@@ -1,5 +1,4 @@
 @import url(fontawesome-all.min.css);
-@import url(Madina.otf);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 /*
 	@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
@@ -186,11 +185,10 @@ input, select, textarea {
 	}
 
 	h1 {
-		/* font-family: 'Sacramento', cursive; */
-		font-family: 'Madina'; 
+		font-family: 'Sacramento', cursive;
 		color: #ffffff;
 		font-weight: 600;
-		line-height: 1.5;
+		line-height: 1.9;
 		margin: 0 0 1rem 0;
 		text-transform: none;
 		letter-spacing: 0.1rem;
