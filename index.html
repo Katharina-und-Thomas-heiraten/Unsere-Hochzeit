@@ -16,6 +16,19 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet"> 
 		
+		<SCRIPT TYPE="text/javascript">
+		  function popup(mylink, windowname) { 
+			if (! window.focus)return true;
+			var href;
+			if (typeof(mylink) == 'string') href=mylink;
+			else href=mylink.href; 
+			window.open(href, windowname, 'width=400,height=200,scrollbars=yes'); 
+			return false; 
+		  }
+		</SCRIPT>
+
+		
+		<!-- Pop Up Style
 		<style>
 			.alert {
 			  padding: 20px;
@@ -38,9 +51,11 @@
 			  color: black;
 			}
 		</style>
+		-->
 		
 		
 	</head>
+	<body onLoad="popup('autopopup.html', 'ad')">
 	<body class="is-preload">	
 			
 		<div class="alert">
@@ -50,7 +65,7 @@
 		   <input type="password" id="pw" name="password" required>
 		</div>
 		
-					
+		<!-- Pop Up	
 		<script>
 			var myInput = document.getElementById("pw");
 			var koenigPW = "123";
@@ -74,7 +89,7 @@
 			}
 
 		</script>
-		
+		-->
 		
 
 		<!-- Wrapper -->
@@ -282,27 +297,22 @@
 
 												<tr>
 													<td>Ettlingen Haus</td>
-													<td>Telefon: +49 175 5869506 <a href="www.fewo-ettlingen.de">www.fewo-ettlingen.de</a></td>
+													<td>Telefon: +49 175 5869506 <a href="http://fewo-ettlingen.de/">www.fewo-ettlingen.de</a></td>
 													
 												</tr>
 												<tr>
 													<td>Anderer</td>
-													<td>Telefon: +49 7243 78767 <a href="www.ferienwohnung-anderer.de">www.ferienwohnung-anderer.de</a></td>
+													<td>Telefon: +49 7243 78767 <a href="https://www.ferienwohnung-anderer.de/">www.ferienwohnung-anderer.de</a></td>
 													
 												</tr>
 												<tr>
 													<td>Ettlingen Vogelsang</td>
-													<td>Telefon: +49 151 23620348 <a href="www.ferienwohnung-ettlingen-vogelsang.de">www.ferienwohnung-ettlingen-vogelsang.de</a></td>
+													<td>Telefon: +49 151 23620348 <a href="http://www.ferienwohnung-ettlingen-vogelsang.de/">www.ferienwohnung-ettlingen-vogelsang.de</a></td>
 													
-												</tr>
-												<tr>
-													<td>Anma's Ferienwohnung</td>
-													<td>Telefon: +49 176 72785742 <a href="www.anmas-ettlingen.de/ferienwohnung-ettlingen">www.anmas-ettlingen.de</a></td>
-													
-												</tr>																								
+												</tr>																							
 												<tr>
 													<td>Ettlingen</td>
-													<td>Telefon: +49 7243 521880 <a href="www.ferienwohnung-ettlingen.de">www.ferienwohnung-ettlingen.de</a></td>
+													<td>Telefon: +49 7243 521880 <a href="http://www.ferienwohnung-ettlingen.de/">www.ferienwohnung-ettlingen.de</a></td>
 													
 												</tr>
 											</tbody>
