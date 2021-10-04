@@ -16,8 +16,66 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet"> 
 		
+		<style>
+			.alert {
+			  padding: 20px;
+			  background-color: #083db8;
+			  color: white;
+			}
+
+			.closebtn {
+			  margin-left: 15px;
+			  color: white;
+			  font-weight: bold;
+			  float: right;
+			  font-size: 40px;
+			  line-height: 30px;
+			  cursor: pointer;
+			  transition: 0.3s;
+			}
+
+			.closebtn:hover {
+			  color: black;
+			}
+		</style>
+		
+		
 	</head>
-	<body class="is-preload">
+	<body class="is-preload">	
+			
+		<div class="alert">
+		  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+		  <strong>Hallo!</strong> <br> Give ze passwort. <br>
+		   <label for="pw">Password</label>
+		   <input type="password" id="pw" name="password" required>
+		</div>
+		
+					
+		<script>
+			var myInput = document.getElementById("pw");
+			var koenigPW = "123";
+			
+
+			// When the user clicks on the password field, show the message box
+			//myInput.onfocus = function() {
+			  //document.getElementById("message").style.display = "block";
+			//}
+
+
+			// When the user starts to type something inside the password field
+			myInput.onkeyup = function() {
+			
+			  // Validate lowercase letters
+			  var lowerCaseLetters = /[a-z]/g;
+			  if(myInput.value.match(koenigPW)) {
+				//
+			  } else {
+				//
+			}
+
+		</script>
+		
+		
 
 		<!-- Wrapper -->
 			<div id="wrapper">
